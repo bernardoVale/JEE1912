@@ -22,7 +22,7 @@
         <configuration />
       </facet>
       <facet type="webservices" name="WebServices">
-        <configuration ws.engine="Apache Axis" />
+        <configuration ws.engine="Glassfish / JAX-WS 2.X RI / Metro 1.X / JWSDP 2.0" />
       </facet>
     </facet>
   </component>
@@ -54,6 +54,20 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/sistemas_jars_other/axis2-1.6.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/sistemas_jars_other/axis2-1.6.2/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/sistemas_jars_other/axis2-1.6.2/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/sistemas_jars_other/axis2-1.6.2/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="jarsWS" level="application" />
   </component>
 </module>
 

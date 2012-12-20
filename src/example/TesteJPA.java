@@ -1,7 +1,7 @@
 package example;
 
 
-import br.edu.utfpr.model.dao.DaoProfessor;
+import br.edu.utfpr.model.dao.ProfessorDao;
 import br.edu.utfpr.model.pojo.Professor;
 
 /**
@@ -12,7 +12,7 @@ import br.edu.utfpr.model.pojo.Professor;
 public class TesteJPA {
 
     public static void main(String[] args) {
-        DaoProfessor d = new DaoProfessor();
+        ProfessorDao d = new ProfessorDao();
         Professor p = new Professor("Negroide","1234231233");
         p = d.save(p);
         p.getId();
