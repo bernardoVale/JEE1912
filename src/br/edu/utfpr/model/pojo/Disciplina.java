@@ -9,7 +9,7 @@ import javax.persistence.*;
  */
 @Entity
 @SequenceGenerator(allocationSize = 1, name = "disciplina_s", sequenceName = "disciplina_s")
-public class Disciplina {
+public class Disciplina implements IPojo{
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "disciplina_s")

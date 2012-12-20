@@ -11,7 +11,7 @@ import java.util.List;
  */
 @Entity
 @SequenceGenerator(allocationSize = 1, name = "professorGenerator", sequenceName = "professor_s")
-public class Professor {
+public class Professor implements IPojo{
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "professorGenerator")
