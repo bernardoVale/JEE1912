@@ -25,6 +25,11 @@ public class Disciplina implements IPojo{
     public Disciplina() {
     }
 
+    public Disciplina(String nome, Professor professor) {
+        this.nome = nome;
+        this.professor = professor;
+    }
+
     public Long getId() {
         return id;
     }

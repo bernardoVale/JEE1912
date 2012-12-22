@@ -5,4 +5,7 @@
             name="CalculadoraServer"
             implementation="br.edu.utfpr.servico.CalculadoraServerImpl"
             url-pattern="/ts" />
+    <endpoint name="ProfessorServer"
+              implementation="br.edu.utfpr.servico.ProfessorServerImpl"
+              url-pattern="/ps"/>
 </endpoints>

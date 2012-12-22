@@ -27,6 +27,14 @@ public class Professor implements IPojo{
         this.cpf = cpf;
     }
 
+    public List<Disciplina> getDisciplinasMinistrantes() {
+        return disciplinasMinistrantes;
+    }
+
+    public Professor(Long id) {
+        this.id = id;
+    }
+
     public Professor() {
     }
 

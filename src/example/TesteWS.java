@@ -1,6 +1,8 @@
 package example;
 
-import br.edu.utfpr.servico.CalculadoraServer;
+import br.edu.utfpr.model.pojo.Disciplina;
+import br.edu.utfpr.model.pojo.Professor;
+import br.edu.utfpr.servico.ProfessorServer;
 
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
@@ -15,12 +17,14 @@ import java.net.URL;
 public class TesteWS {
     public static void main(String[] args) {
         try{
-            URL url =  new URL("http://localhost:8080/jeeAtividade/ts?wsdl");
-            QName qame = new QName("http://servico.utfpr.edu.br/", "CalculadoraServerImplService");
+            URL url =  new URL("http://localhost:8080/jeeAtividade/ps?wsdl");
+            QName qame = new QName("http://servico.utfpr.edu.br/", "ProfessorServerImplService");
             Service service = Service.create(url,qame);
-            CalculadoraServer calc = service.getPort(CalculadoraServer.class);
-            Double result = calc.efetuarCalculo("3+4");
-            System.out.println(result);
+            ProfessorServer prof = service.getPort(ProfessorServer.class);
+            Disciplina[] disciplinas = prof.returnDisciplinaByProfessor(new Professor(2L));
+            for(int i=0;i<disciplinas.length;i++){
+                System.out.printf(disciplinas[i].toString());
+            }
         } catch (MalformedURLException e1) {
             e1.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
