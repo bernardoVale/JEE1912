@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e260ec15-b469-4855-b66f-7655fd3087b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/ProfessorXmlList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/conf/axis2.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="$PROJECT_DIR$/web/professor.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="$PROJECT_DIR$/web/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/professor.xhtml" afterPath="$PROJECT_DIR$/web/professor.xhtml" />
     </list>
     <ignored path="JEEAtividade1912.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +21,7 @@
     <file path="/DaoDisciplina.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356044770563" ignored="false" />
     <file path="/web.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356181207145" ignored="false" />
     <file path="/sun-jaxws.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356302838955" ignored="false" />
-    <file path="/index.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356372440194" ignored="false" />
+    <file path="/index.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356372716296" ignored="false" />
     <file path="/TesteWS.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356181357756" ignored="false" />
     <file path="/ProfessoresServer.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356179705009" ignored="false" />
     <file path="/ProfessorServerImpl.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356181706412" ignored="false" />
@@ -35,12 +33,14 @@
     <file path="/IDisciplinasMatriculas.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356301307438" ignored="false" />
     <file path="/ProfessorMB.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356356267555" ignored="false" />
     <file path="/a.txt" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356356183225" ignored="false" />
-    <file path="/faces-config.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356369472043" ignored="false" />
+    <file path="/faces-config.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356372900247" ignored="false" />
     <file path="/ProdutosMBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356359928342" ignored="false" />
     <file path="/ProfessorBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356370171199" ignored="false" />
     <file path="/ProfessorController.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356359838476" ignored="false" />
     <file path="/DisciplinaBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356372099433" ignored="false" />
     <file path="/disciplina.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356370538923" ignored="false" />
+    <file path="/visualizarProfessores.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356375461936" ignored="false" />
+    <file path="/VisualizarProfessoresBean.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356375223547" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,6 +351,146 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="26" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="25" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="24" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="21" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="18" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="19" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="20" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="27" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="32" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" line="28" class="br.edu.utfpr.model.managedBeans.VisualizarProfessoresBean" package="br.edu.utfpr.model.managedBeans">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -418,30 +558,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="professor.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/professor.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="40" selection-start="410" selection-end="675" vertical-scroll-proportion="-9.083333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfessorBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DisciplinaBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="70" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.0">
+            <state line="30" column="39" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1434#1446#0" expanded="true" />
@@ -453,25 +573,48 @@
       <file leaf-file-name="disciplina.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/disciplina.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="67" selection-start="879" selection-end="879" vertical-scroll-proportion="-9.708333">
+            <state line="27" column="46" selection-start="811" selection-end="811" vertical-scroll-proportion="-9.083333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="64" selection-start="351" selection-end="351" vertical-scroll-proportion="0.38566554">
+            <state line="7" column="108" selection-start="138" selection-end="138" vertical-scroll-proportion="-0.9583333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java">
+      <file leaf-file-name="VisualizarProfessoresBean.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+            <state line="26" column="48" selection-start="876" selection-end="876" vertical-scroll-proportion="0.23659305">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1391#1403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfessorServerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="92" selection-start="597" selection-end="681" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visualizarProfessores.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/visualizarProfessores.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="46" selection-start="681" selection-end="681" vertical-scroll-proportion="-8.458333">
               <folding />
             </state>
           </provider>
@@ -502,9 +645,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/IPojo.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/DisciplinasMatriculadas.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/server-config.wsdd" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/DisciplinasMatriculas.java" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/IDisciplinasMatriculas.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" />
@@ -513,19 +653,22 @@
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProdutosMBean.java" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/controller/ProfessorController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java" />
         <option value="$PROJECT_DIR$/web/disciplina.xhtml" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaBean.java" />
         <option value="$PROJECT_DIR$/web/index.xhtml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/web/professor.xhtml" />
+        <option value="$PROJECT_DIR$/web/visualizarProfessores.xhtml" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
@@ -1070,7 +1213,6 @@
     </configuration>
     <configuration default="false" name="Glassfish 3.1.2.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Glassfish 3.1.2.2">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jeeAtividade" />
-      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="jeeAtividade">
           <settings />
@@ -1252,7 +1394,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2430279" sideWeight="0.5824" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2430279" sideWeight="0.5824" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1321,20 +1463,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/CalculadoraServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="283" selection-end="356" vertical-scroll-proportion="0.22537562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/IPojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="189" selection-end="189" vertical-scroll-proportion="0.46640316">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="70" selection-start="154" selection-end="154" vertical-scroll-proportion="0.026132405">
@@ -1367,21 +1495,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="65" selection-start="270" selection-end="270" vertical-scroll-proportion="0.04731861">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="40" selection-start="550" selection-end="550" vertical-scroll-proportion="0.9112426">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="39" selection-start="285" selection-end="285" vertical-scroll-proportion="0.04731861">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="108" selection-start="138" selection-end="138" vertical-scroll-proportion="-0.9583333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="234" selection-end="234" vertical-scroll-proportion="0.04731861">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.8924731">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/professor.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="8" selection-start="670" selection-end="670" vertical-scroll-proportion="0.7440273">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,36 +1563,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="825" selection-end="825" vertical-scroll-proportion="0.8064516">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="285" selection-end="285" vertical-scroll-proportion="0.04731861">
-          <folding />
+        <state line="30" column="39" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1434#1446#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/professor.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="410" selection-end="675" vertical-scroll-proportion="-9.083333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/ProfessorBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+        <state line="22" column="92" selection-start="597" selection-end="681" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1432,32 +1584,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/disciplina.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="67" selection-start="879" selection-end="879" vertical-scroll-proportion="-9.708333">
+        <state line="27" column="46" selection-start="811" selection-end="811" vertical-scroll-proportion="-9.083333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java">
+    <entry file="file://$PROJECT_DIR$/web/visualizarProfessores.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+        <state line="23" column="46" selection-start="681" selection-end="681" vertical-scroll-proportion="-8.458333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/DisciplinaBean.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/managedBeans/VisualizarProfessoresBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="70" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.0">
+        <state line="26" column="48" selection-start="876" selection-end="876" vertical-scroll-proportion="0.23659305">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1434#1446#0" expanded="true" />
+            <element signature="e#1391#1403#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="351" selection-end="351" vertical-scroll-proportion="0.38566554">
-          <folding />
         </state>
       </provider>
     </entry>
