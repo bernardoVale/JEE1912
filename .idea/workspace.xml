@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e260ec15-b469-4855-b66f-7655fd3087b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Professor.java" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Professor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/TesteJPA.java" afterPath="$PROJECT_DIR$/src/example/TesteJPA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/TesteWS.java" afterPath="$PROJECT_DIR$/src/example/TesteWS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/IPojo.java" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/IPojo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JEEAtividade1912.iml" afterPath="$PROJECT_DIR$/JEEAtividade1912.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java" afterPath="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jeeAtividade.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jeeAtividade.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JEEAtividade1912.iws" />
@@ -19,12 +18,12 @@
     <file path="/TesteJPA.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356179549286" ignored="false" />
     <file path="/fragment.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356180950257" ignored="false" />
     <file path="/PersistenceGetter.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356042863119" ignored="false" />
-    <file path="/IPojo.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356043980686" ignored="false" />
+    <file path="/IPojo.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356182070359" ignored="false" />
     <file path="/AbstractDao.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356044657199" ignored="false" />
     <file path="/DaoProfessor.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356044780288" ignored="false" />
     <file path="/DaoDisciplina.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356044770563" ignored="false" />
     <file path="/web.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356181207145" ignored="false" />
-    <file path="/sun-jaxws.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356181211283" ignored="false" />
+    <file path="/sun-jaxws.xml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356302838955" ignored="false" />
     <file path="/index.xhtml" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356046994839" ignored="false" />
     <file path="/TesteWS.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356181357756" ignored="false" />
     <file path="/ProfessoresServer.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356179705009" ignored="false" />
@@ -32,6 +31,9 @@
     <file path="/ProfessorXmlList.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356180535381" ignored="false" />
     <file path="/ProfessorServer.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356180762094" ignored="false" />
     <file path="/TesteWSTest.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356180958427" ignored="false" />
+    <file path="/DisciplinasMatriculas.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356301269074" ignored="false" />
+    <file path="/server-config.wsdd" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356301179354" ignored="false" />
+    <file path="/IDisciplinasMatriculas.java" changelist="e260ec15-b469-4855-b66f-7655fd3087b2" time="1356301307438" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,34 +232,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/example/TesteWS.java" line="23" class="example.TesteWS" package="example">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/example/TesteWS.java" line="25" class="example.TesteWS" package="example">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServerImpl.java" line="23" class="br.edu.utfpr.servico.ProfessorServerImpl" package="br.edu.utfpr.servico">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -370,10 +344,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TesteWS.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TesteWS.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/TesteWS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.3320158">
+            <state line="21" column="26" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -381,33 +355,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfessorServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfessorServerImpl.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ProfessorServerImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.5588235">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Disciplina.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="39" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -415,35 +369,19 @@
       <file leaf-file-name="sun-jaxws.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+            <state line="7" column="28" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="ProfessorServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="38" selection-start="830" selection-end="830" vertical-scroll-proportion="-6.16">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="27" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="18" column="50" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -463,25 +401,32 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="JEEAtividade1912" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/dao/DaoDisciplina.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/dao/DaoProfessor.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/web/index.xhtml" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/CalculadoraServerImpl.java" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java" />
         <option value="$PROJECT_DIR$/src/example/TesteJPA.java" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessoresServer.java" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/ProfessorXmlList.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java" />
         <option value="$PROJECT_DIR$/src/example/TesteWSTest.java" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Professor.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" />
         <option value="$PROJECT_DIR$/src/example/TesteWS.java" />
         <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/IPojo.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/DisciplinasMatriculadas.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/server-config.wsdd" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/DisciplinasMatriculas.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/IDisciplinasMatriculas.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java" />
       </list>
     </option>
   </component>
@@ -497,6 +442,61 @@
     <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MultipleMethodDesignatorsInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -743,8 +743,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$USER_HOME$/tcc/gwtGeoStatistics" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$USER_HOME$/sistemas_jars_other/axis2-1.6.2" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -952,7 +952,7 @@
     </configuration>
     <configuration default="false" name="Glassfish 3.1.2.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Glassfish 3.1.2.2">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jeeAtividade" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="jeeAtividade">
           <settings />
@@ -1114,27 +1114,27 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.52" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4688" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940239" sideWeight="0.48" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24223107" sideWeight="0.5312" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1203,43 +1203,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/ProfessorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/DisciplinaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="27" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/ProfessorXmlList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="499" selection-end="499" vertical-scroll-proportion="0.5449827">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Professor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="24" selection-start="933" selection-end="933" vertical-scroll-proportion="0.4100346">
@@ -1270,9 +1233,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/IPojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="189" selection-end="189" vertical-scroll-proportion="0.46640316">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="39" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="28" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="830" selection-end="830" vertical-scroll-proportion="-6.16">
+        <state line="2" column="70" selection-start="154" selection-end="154" vertical-scroll-proportion="0.026132405">
           <folding />
         </state>
       </provider>
@@ -1286,23 +1277,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/sun-jaxws.xml">
+    <entry file="file://$PROJECT_DIR$/src/example/TesteWS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/model/pojo/Disciplina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="21" column="26" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+        <state line="18" column="50" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1311,16 +1297,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/utfpr/servico/ProfessorServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/TesteWS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.3320158">
+        <state line="29" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.5588235">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

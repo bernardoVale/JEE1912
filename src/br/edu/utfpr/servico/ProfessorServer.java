@@ -13,7 +13,9 @@ import javax.jws.soap.SOAPBinding;
  *         Time: 10:33
  */
 @WebService
-@SOAPBinding(style = SOAPBinding.Style.RPC)
+@SOAPBinding(style=SOAPBinding.Style.DOCUMENT
+,use=SOAPBinding.Use.LITERAL,
+parameterStyle=SOAPBinding.ParameterStyle.WRAPPED)
 public interface ProfessorServer {
 
     @WebMethod

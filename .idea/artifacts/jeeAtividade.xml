@@ -81,6 +81,7 @@
           <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/axis2-1.6.2/lib/antlr-2.7.7.jar" />
           <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/axis2-1.6.2/lib/axiom-api-1.2.13.jar" />
           <element id="file-copy" path="$USER_HOME$/sistemas_jars_other/axis2-1.6.2/lib/log4j-1.2.15.jar" />
+          <element id="library" level="project" name="Axis2" />
         </element>
       </element>
     </root>
