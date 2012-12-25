@@ -20,17 +20,14 @@ public class VisualizarProfessoresBean {
     private ProfessorDao professorDao = new ProfessorDao();
     private Long currentProfessor = 0L;
     private List<SelectItem> professorList = getProfessores();
+    private List<Disciplina> disciplinasList = new ArrayList<Disciplina>();
 
-    public void buscar(){
-        List<Disciplina> disciplinas = professorDao.findByID(currentProfessor).getDisciplinasMinistrantes();
-        for(Disciplina d : disciplinas){
-            System.out.printf(d.getNome());
-        }
-        System.out.println(currentProfessor);
+    public List<Disciplina> getDisciplinasList() {
+        return disciplinasList;
     }
 
-    public void salvar(){
-        System.out.println("caca");
+    public void buscar(){
+        disciplinasList = professorDao.findByID(currentProfessor).getDisciplinasMinistrantes();
     }
     public Long getCurrentProfessor() {
         return currentProfessor;
