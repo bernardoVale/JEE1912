@@ -14,7 +14,7 @@ import java.util.List;
  */
 public abstract class AbstractDao<T extends IPojo> {
 
-  private final EntityManager em = PersistenceGetter.getManager();
+  private EntityManager em = PersistenceGetter.getManager();
   private final Class<T> clazz;
 
   public AbstractDao(Class<T> clazz) {
@@ -29,10 +29,17 @@ public abstract class AbstractDao<T extends IPojo> {
   protected final EntityManager em() {
     return em;
   }
-  private void committer(){
-      em.getTransaction().commit();
+
+  private void end(T t){
+      end();
+      em.refresh(t);
   }
-  private void createTransaction(){
+    private void end(){
+        em.getTransaction().commit();
+    }
+  private void start(){
+      if(em.getTransaction().
+      isActive()){end();}
       em.getTransaction().begin();
   }
   /**
@@ -43,14 +50,14 @@ public abstract class AbstractDao<T extends IPojo> {
    * @return objeto atualizado.
    */
   public T save(T t) {
-      createTransaction();
+    start();
     if (t != null && t.getId() != null) {
       t = em().merge(t);
       em().flush();
       return t;
     }
     em().persist(t);
-    committer();
+    end(t);
     return t;
   }
     public T findByKeyAtribute(String key,String keyValue){
@@ -80,6 +87,7 @@ public abstract class AbstractDao<T extends IPojo> {
    * @return objeto carregado.
    */
   public T findByID(Long id) {
+    start();
     return em().find(clazz, id);
   }
 

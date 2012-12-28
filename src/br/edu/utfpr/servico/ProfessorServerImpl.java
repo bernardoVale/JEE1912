@@ -29,4 +29,17 @@ public class ProfessorServerImpl implements ProfessorServer {
         }
         return disciplinasArray;
     }
+
+    @WebMethod
+    public Professor[] returnProfessores() {
+        ProfessorDao dao = new ProfessorDao();
+        List<Professor> p = dao.findAll();
+        Professor[] professores = new Professor[p.size()];
+        int i=0;
+        for(Professor prof : p){
+            professores[i] = prof;
+            i++;
+        }
+        return professores;
+    }
 }

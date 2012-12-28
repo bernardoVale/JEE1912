@@ -14,11 +14,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>jax-ws</servlet-name>
-        <url-pattern>/ts</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>jax-ws</servlet-name>
         <url-pattern>/ps</url-pattern>
     </servlet-mapping>
     <session-config>

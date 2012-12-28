@@ -62,4 +62,13 @@ public class Professor implements IPojo{
         this.cpf = cpf;
     }
 
+    @Override
+    public String toString() {
+        return "Professor{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", disciplinasMinistrantes=" + disciplinasMinistrantes +
+                '}';
+    }
 }

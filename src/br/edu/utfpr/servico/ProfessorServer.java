@@ -20,4 +20,6 @@ public interface ProfessorServer {
 
     @WebMethod
     public Disciplina[] returnDisciplinaByProfessor(Professor p);
+    @WebMethod
+    public Professor[] returnProfessores();
 }

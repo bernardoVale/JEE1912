@@ -1,6 +1,5 @@
 package example;
 
-import br.edu.utfpr.model.pojo.Disciplina;
 import br.edu.utfpr.model.pojo.Professor;
 import br.edu.utfpr.servico.ProfessorServer;
 
@@ -19,6 +18,18 @@ public class TesteWS {
         try{
             URL url =  new URL("http://localhost:8080/jeeAtividade/ps?wsdl");
             QName qame = new QName("http://servico.utfpr.edu.br/", "ProfessorServerImplService");
+            Service service = Service.create(url, qame);
+            ProfessorServer prof = service.getPort(ProfessorServer.class);
+            Professor[] profs = prof.returnProfessores();
+            for(int i=0;i<profs.length;i++){
+                System.out.printf(profs[i].toString());
+            }
+            } catch (MalformedURLException e1) {
+                e1.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+        /*try{
+            URL url =  new URL("http://localhost:8080/jeeAtividade/ps?wsdl");
+            QName qame = new QName("http://servico.utfpr.edu.br/", "ProfessorServerImplService");
             Service service = Service.create(url,qame);
             ProfessorServer prof = service.getPort(ProfessorServer.class);
             Disciplina[] disciplinas = prof.returnDisciplinaByProfessor(new Professor(2L));
@@ -27,6 +38,6 @@ public class TesteWS {
             }
         } catch (MalformedURLException e1) {
             e1.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+        }  */
     }
 }
