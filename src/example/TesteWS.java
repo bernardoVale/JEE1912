@@ -1,5 +1,6 @@
 package example;
 
+import br.edu.utfpr.model.pojo.Disciplina;
 import br.edu.utfpr.model.pojo.Professor;
 import br.edu.utfpr.servico.ProfessorServer;
 
@@ -27,7 +28,7 @@ public class TesteWS {
             } catch (MalformedURLException e1) {
                 e1.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
-        /*try{
+        try{
             URL url =  new URL("http://localhost:8080/jeeAtividade/ps?wsdl");
             QName qame = new QName("http://servico.utfpr.edu.br/", "ProfessorServerImplService");
             Service service = Service.create(url,qame);
@@ -38,6 +39,6 @@ public class TesteWS {
             }
         } catch (MalformedURLException e1) {
             e1.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }  */
+        }
     }
 }
